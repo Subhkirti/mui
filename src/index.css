@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin:0;
+    font-family: arial;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* nav.jsx */
+.nav-bar{
+    padding: 0.3%;
+
 }
+.icons{
+    display:flex;
+    gap:2rem;
+    align-items: center;
+}
+
+/* app.jsx */
+.centered-things{
+    position: absolute;
+    top:4.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* leftside */
+.left{
+    background-color: rgb(249, 246, 246);
+    padding:2%;
+    position: fixed;
+    left:0;
+    width:20%;
+    z-index: -3;
+    display: flex;
+    flex-direction: column;
+    color:rgb(119, 116, 116);
+    line-height: 3rem;
+
+}
+.left li{
+   
+    list-style: none;
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+
+/* right.jsx */
+.right{
+    color:grey;
+    background-color: rgb(251, 249, 249);
+    padding:2%;
+    width:20%;
+    z-index: -3;
+    position: fixed;
+    right:0;
+    flex-wrap: wrap;
+    line-height: 1rem;
+}
+.friends{
+    margin-bottom: 3%;
+}
+.avatar{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.avatar li{
+    list-style: none;
+    
+}
+.chats{
+    display: flex;
+    margin-bottom: 3%;
+    gap:8px;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    justify-content: space-between;
+
+}
+.right p{
+    margin-bottom: 3%;
+}
+.photos img{
+    height:4rem;
+    width:30%;
+}
+.views{
+    font-size: 12px;
+    padding: 3%;
+    border-bottom: 1.5px solid rgb(215, 210, 210);
+}
+
+/* main.jsx */
+.main{
+    background-color: rgb(249, 247, 247);
+  width:70%;
+    z-index: -3;
+    position: relative;
+    left:16rem; 
+}
+.user{
+
+    display:flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+.card{
+    margin-bottom: 2rem;
+    box-shadow: 0 0 5px grey;
+    color:rgb(100, 97, 97);
+}
+img{
+    width:100%;
+}
+.footer{
+    padding:4%;
+    line-height:2rem;
+}
+.like{
+    display: flex;
+    align-items: center;
+    gap:1.5rem;
+}
+
+
