@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MUI/static/css/main.e0712d6d.css",
+    "main.js": "/MUI/static/js/main.dcca19cd.js",
+    "index.html": "/MUI/index.html",
+    "main.e0712d6d.css.map": "/MUI/static/css/main.e0712d6d.css.map",
+    "main.dcca19cd.js.map": "/MUI/static/js/main.dcca19cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0712d6d.css",
+    "static/js/main.dcca19cd.js"
+  ]
+}
