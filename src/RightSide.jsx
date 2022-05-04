@@ -1,6 +1,7 @@
 import React from 'react';
 import { Chats } from './chats';
 import { Avatar } from '@material-ui/core';
+
 function RightSide() {
     return (
         <div className='right'>

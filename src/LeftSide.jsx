@@ -16,11 +16,6 @@ function LeftSide() {
         <li><Settings></Settings> Settings</li>
         <li><AccountBox></AccountBox> Profile</li>
         <li><Brightness2></Brightness2> <ToggleOn ></ToggleOn></li>
-        
-
-
-    
-
     </div>
   )
 }

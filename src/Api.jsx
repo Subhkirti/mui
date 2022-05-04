@@ -3,7 +3,7 @@ export const Api=[
         img:"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
         date:"April 13, 2021",
         name:"Lillie Melchior",
-        user:"https://i.insider.com/5d7925cf6f24eb04975cc983?width=700",
+        user:"https://i.pinimg.com/474x/93/ee/cf/93eecfdf010bbedda6ef672ea1de9ff7.jpg",
         quotes:"Write it on your heart that every day is the best day in the year."
        
     },

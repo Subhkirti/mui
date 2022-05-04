@@ -6,7 +6,15 @@
 /* nav.jsx */
 .nav-bar{
     padding: 0.3%;
+}
 
+.inp{
+    padding:1%;
+    outline:none;
+    border:none;
+    border-radius: 2px;
+    font-size:12px;
+    width:50%;
 }
 .icons{
     display:flex;
@@ -29,7 +37,7 @@
     position: fixed;
     left:0;
     width:20%;
-    z-index: -3;
+  
     display: flex;
     flex-direction: column;
     color:rgb(119, 116, 116);
@@ -50,7 +58,7 @@
     background-color: rgb(251, 249, 249);
     padding:2%;
     width:20%;
-    z-index: -3;
+  
     position: fixed;
     right:0;
     flex-wrap: wrap;
@@ -96,22 +104,28 @@
 /* main.jsx */
 .main{
     background-color: rgb(249, 247, 247);
-  width:70%;
-    z-index: -3;
+    width:70%;
+ 
     position: relative;
     left:16rem; 
+
+}
+.input{
+    width:100%;
+    outline:none;
+    border: none;
 }
 .user{
-
     display:flex;
     justify-content: space-between;
     padding: 4%;
 }
 .card{
     margin-bottom: 2rem;
-    box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 15px grey;
     color:rgb(100, 97, 97);
 }
+
 img{
     width:100%;
 }
@@ -121,8 +135,55 @@ img{
 }
 .like{
     display: flex;
-    align-items: center;
+    margin:2%;
     gap:1.5rem;
 }
+@media (max-width:320px) {
+    .left{
+        display:none;
+    }
+   .right{
+    display:none;
+   }
 
+    .main{
+        background-color: rgb(249, 247, 247);
+        width:100%;
+        left:0;
+    }
+    .nav-bar{
+        padding: 0.2%;
+    }
+   
+    .icons{
+        display:none;
+    }
+    .centered-things{
+        position: absolute;
+        top:4rem;
+        display: flex;
+        justify-content: space-between;
+        padding:5%;
+    }
+   .footer{
+       font-size:15px;
+       line-height:1.7rem;
+   }
+    .card{
+        margin-bottom: 1rem;
+        line-height: 1.5rem;
+    }
+   
+    .inp{
+        padding:2%;
+        outline:none;
+        border:none;
+        border-radius: 5px;
+        font-size:12px;
+    }
+    img{
+        margin:1rem 0 1rem 0;
+        height:17rem;
+    }
+}
 
