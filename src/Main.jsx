@@ -1,6 +1,5 @@
 import React from 'react'
 import { Api } from './Api'
-
 import Card from './card'
 
 function Main() {
